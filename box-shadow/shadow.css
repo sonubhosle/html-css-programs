@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-shadows {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 5%;
+    
+}
+
+.box-shadows .shadow-one{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    box-shadow: rgb(138, 43, 226) 0px 0px 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-shadows .shadow-two{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    box-shadow: rgb(138, 43, 226) 10px 10px 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-shadows .shadow-three{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    box-shadow: rgb(138, 43, 226) -10px -10px 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box-shadows .shadow-four{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    box-shadow: rgba(137, 43, 226, 0.212) 0px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}

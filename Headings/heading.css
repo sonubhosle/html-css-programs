@@ -1,0 +1,38 @@
+/* Remove Default Style Of Html Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define height, width, background color to body */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+
+}
+
+
+/* Select our class to design */
+
+.container {
+    width: 100%;
+    height:200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: aqua;
+}
+
+.container .box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
