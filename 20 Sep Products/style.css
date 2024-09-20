@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f8f8f8;
+}
+
+h3{
+    padding: 20px 30px;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.products .card {
+    width: 240px;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.products .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.products .card .product-info {
+    padding: 10px 0px 0px 0px;
+}
+
+.product-info .brand {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #585858;
+}
+
+.product-info .name {
+    font-size: 17px;
+    color: #000000;
+    padding: 5px 0px 10px 0px;
+}
+
+.product-info .price-bx {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-info .price-bx .discount-price {
+    font-weight: 600;
+    color: teal;
+    font-size: 22px;
+}
+
+.product-info .price-bx .price {
+    text-decoration: line-through;
+    color: #585858;
+}
+
+.product-info .price-bx .discount {
+    font-weight: 500;
+    color: green;
+}
+
+.product-info .rating-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.product-info .rating-review .rating {
+    background-color: crimson;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.products .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.228) 0px 5px  25px 0px;
+}
